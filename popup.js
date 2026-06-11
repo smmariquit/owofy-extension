@@ -1,3 +1,5 @@
+// popup.js
+
 document.getElementById('colorBtn').addEventListener('click', () => {
   chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
     chrome.scripting.executeScript({

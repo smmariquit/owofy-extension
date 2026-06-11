@@ -1,3 +1,5 @@
+// content.js
+
 // Replace all visible text nodes in common elements with 'uwu'
 function replaceTextWithUwuInElement(element) {
   // Collect all text from direct text nodes
